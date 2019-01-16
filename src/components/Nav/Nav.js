@@ -23,14 +23,12 @@ class Nav extends Component {
                             <li>
                                 <form className="form-inline my-2 my-lg-0">
                                     <input className="form-control mr-sm-2" type="search" placeholder="Search for player" aria-label="Search"/>
-                                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                    <button className="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
                                 </form>
                             </li>
                         </ul>
 
-                        <button className="nav-item btn btn-outline-success">
-                            <a className="nav-link" href="#">My Team</a>
-                        </button>
+                        <button className="btn btn-outline-primary my-2 my-sm-0" type="submit">My Team</button>
 
                         <div className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
