@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2454664-b9fd-4bbe-91ae-30faaf0d7ecf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/Nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Dashboard.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,10 +24,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="14" />
+          <entry key="css" value="15" />
           <entry key="html" value="4" />
           <entry key="ico" value="2" />
-          <entry key="js" value="14" />
+          <entry key="js" value="15" />
           <entry key="json" value="3" />
           <entry key="md" value="2" />
           <entry key="png" value="1" />
@@ -44,11 +36,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="14" />
+          <entry key="CSS" value="15" />
           <entry key="HTML" value="4" />
           <entry key="Image" value="3" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="14" />
+          <entry key="JavaScript" value="15" />
           <entry key="Markdown" value="2" />
           <entry key="SVG" value="2" />
         </counts>
@@ -60,7 +52,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1708" />
+          <entry key="css" value="1716" />
           <entry key="html" value="24" />
           <entry key="js" value="2218" />
           <entry key="json" value="14" />
@@ -68,7 +60,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1708" />
+          <entry key="CSS" value="1716" />
           <entry key="HTML" value="24" />
           <entry key="JSON" value="14" />
           <entry key="JavaScript" value="2218" />
@@ -91,10 +83,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Nav/Nav.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Dashboard/Dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" column="78" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
+            <state relative-caret-position="144">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -103,10 +95,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Nav/Nav.css">
+        <entry file="file://$PROJECT_DIR$/src/components/Dashboard/Dashboard.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="112">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -141,11 +133,11 @@
         <option value="$PROJECT_DIR$/src/components/Dashboard/Dashboard.js" />
         <option value="$PROJECT_DIR$/src/components/Cover/Cover.js" />
         <option value="$PROJECT_DIR$/src/components/Dashboard/DashboardItem/DashboardItem.js" />
-        <option value="$PROJECT_DIR$/src/components/Dashboard/Dashboard.css" />
         <option value="$PROJECT_DIR$/src/components/Dashboard/DashboardItem/DashboardItem.css" />
         <option value="$PROJECT_DIR$/src/components/Cover/Cover.css" />
         <option value="$PROJECT_DIR$/src/components/Nav/Nav.js" />
         <option value="$PROJECT_DIR$/src/components/Nav/Nav.css" />
+        <option value="$PROJECT_DIR$/src/components/Dashboard/Dashboard.css" />
       </list>
     </option>
   </component>
@@ -265,12 +257,12 @@
       <option name="presentableId" value="Default" />
       <updated>1547588216833</updated>
       <workItem from="1547588219003" duration="7115000" />
-      <workItem from="1547601249679" duration="7937000" />
+      <workItem from="1547601249679" duration="8111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15052000" />
+    <option name="totallyTimeSpent" value="15226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -408,25 +400,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Dashboard/Dashboard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Dashboard/Dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -435,13 +410,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Nav/Nav.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="e#83#102#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="64">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -455,10 +427,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Nav/Nav.css">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="256">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#83#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dashboard/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dashboard/Dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
