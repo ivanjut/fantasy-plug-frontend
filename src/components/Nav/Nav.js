@@ -39,11 +39,10 @@ class Nav extends Component {
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Account
                             </a>
-                            <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="#">Action</a>
-                                <a className="dropdown-item" href="#">Another action</a>
+                            <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown" style={{textAlign: 'center'}}>
+                                <a className="dropdown-item" href="#">Account Settings</a>
                                 <div className="dropdown-divider"></div>
-                                <a className="dropdown-item" href="#">Something else here</a>
+                                <button className='btn btn-danger'>Sign Out</button>
                             </div>
                         </div>
                     </div>
