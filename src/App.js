@@ -3,8 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
-import Cover from "./components/Cover/Cover";
-import Dashboard from "./components/Dashboard/Dashboard";
+import Main from "./components/Main/Main";
 
 class App extends Component {
   render() {
@@ -13,8 +12,7 @@ class App extends Component {
         <Nav/>
 
         <div className='main'>
-            <Cover/>
-            <Dashboard/>
+            <Main/>
         </div>
 
         <Footer/>
