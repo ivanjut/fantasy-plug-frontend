@@ -39,7 +39,7 @@ class Nav extends Component {
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Account
                             </a>
-                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                 <a className="dropdown-item" href="#">Action</a>
                                 <a className="dropdown-item" href="#">Another action</a>
                                 <div className="dropdown-divider"></div>
