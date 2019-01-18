@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Nav.css';
 
 class Nav extends Component {
+
     render() {
         return (
             <div className='navbar-container'>
@@ -32,7 +33,7 @@ class Nav extends Component {
                             </li>
                         </ul>
 
-                        <button className="btn btn-outline-primary my-2 my-sm-0" type="submit">My Team</button>
+                        <button className="btn btn-outline-primary my-2 my-sm-0" type="submit" onClick={this.props.toggle}>My Team</button>
 
                         <div className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"

@@ -4,21 +4,37 @@ import './App.css';
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
 import Main from "./components/Main/Main";
+import MyTeam from "./components/MyTeam/MyTeam";
 
 class App extends Component {
-  render() {
-    return (
-      <div className="app-container">
-        <Nav/>
 
-        <div className='main'>
-            <Main/>
-        </div>
+    constructor(props) {
+        super(props);
+        this.state = {
+            myTeamModal: false,
+        };
+        this.toggleModal = this.toggleModal.bind(this);
+    }
 
-        <Footer/>
-      </div>
-    );
-  }
+    toggleModal = () => {
+        this.setState({ myTeamModal: !this.state.myTeamModal });
+    };
+
+    render() {
+        return (
+            <div className="app-container">
+                <Nav toggle={this.toggleModal}/>
+
+                <MyTeam isOpen={this.state.myTeamModal} toggle={this.toggleModal}/>
+
+                <div className='main'>
+                    <Main/>
+                </div>
+
+                <Footer/>
+            </div>
+        );
+    }
 }
 
 export default App;
