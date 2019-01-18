@@ -25,13 +25,14 @@ class App extends Component {
             <div className="app-container">
                 <Nav toggle={this.toggleModal}/>
 
-                <MyTeam isOpen={this.state.myTeamModal} toggle={this.toggleModal}/>
-
                 <div className='main'>
                     <Main/>
                 </div>
 
                 <Footer/>
+
+                <MyTeam isOpen={this.state.myTeamModal} toggle={this.toggleModal}/>
+
             </div>
         );
     }
